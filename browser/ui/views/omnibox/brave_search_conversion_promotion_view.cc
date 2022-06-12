@@ -194,7 +194,7 @@ class BraveOmniboxResultSelectionIndicator : public views::View {
   explicit BraveOmniboxResultSelectionIndicator(
       BraveSearchConversionPromotionView* parent_view)
       : parent_view_(parent_view) {
-    SetPreferredSize({kStrokeThickness, 0});
+    SetPreferredSize(gfx::Size(kStrokeThickness, 0));
   }
 
   // views::View:
